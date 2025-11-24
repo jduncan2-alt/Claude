@@ -1,0 +1,65 @@
+# Excel temporary files
+~$*.xls*
+~$*.xlsx
+*.xlk
+
+# Excel backup files
+*.xlsb
+
+# Mac OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# R
+.Rhistory
+.RData
+.Rproj.user
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data files (can be large)
+*.csv
+*.dat
+*.sql
+*.sqlite
+*.db
+
+# Logs
+*.log
+
+# Sensitive information
+.env
+credentials.json
+config.ini
+secrets.*
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
